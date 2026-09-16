@@ -16,8 +16,8 @@ from rich.table import Table
 from rich.panel import Panel
 from rich.prompt import Prompt, Confirm
 
-from modelos import Cargo
-from logica import (
+from .modelos import Cargo
+from .logica import (
     calcular_inactividad_administracion_publica,
     calcular_inactividad_docencia,
     obtener_primera_fecha_ingreso_admin,
