@@ -3,7 +3,7 @@ Lógica de negocio para el cálculo de períodos de inactividad.
 """
 from datetime import date, timedelta
 from typing import List, Tuple, Optional
-from modelos import Cargo, PeriodoInactividad
+from .modelos import Cargo, PeriodoInactividad
 
 
 def normalizar_cargos(cargos: List[Cargo], fecha_referencia: date) -> List[Cargo]:
